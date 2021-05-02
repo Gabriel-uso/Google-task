@@ -1,0 +1,72 @@
+body{
+  padding :0;
+  margin :0 ;
+}
+nav{
+  display: flex;
+  width:20%;
+  justify-content: space-around;
+  margin-left: auto;
+  padding: 50px;
+  padding-right: 20px;
+}
+#link{
+  width: 200px;
+  margin-left: 30px;
+}
+nav a{
+  text-decoration: none;
+  color:black;
+  padding-left: 15px;
+}
+nav img{
+  height: 20px;
+}
+main{
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+input{
+  border: 2px solid gray;
+  width: 400px;
+  height:30px;
+  border-radius: 40px;
+  margin: 30px;
+  margin-top: 0;
+  margin: auto;
+}
+button{
+  margin: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 7px;
+  border :1px solid snow ;
+  background-color: whitesmoke;
+}
+.languages{
+  text-decoration :none ;
+  width:400px ;
+}
+footer{
+  background-color: #EDEDF2; 
+}
+.topleft{
+  padding: 5px;
+  border-bottom: 1px solid gray ;
+  display :flex ;
+}
+.bottomleft{
+  padding :17px;
+  display :flex;
+  justify-content :space-between ;
+}
+.bottomcenter a, .bottomright a{
+  padding:5px ;
+  text-decoration: none ;
+  color: black ;
+}
+.bottomcenter a:focus, .bottomright a:focus{
+  text-decoration :underline ;
+}
+
